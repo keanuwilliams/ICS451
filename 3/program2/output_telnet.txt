@@ -1,0 +1,14 @@
+Script started on Sun Sep 29 13:44:25 2019
+[?1034h~/Documents/School/ICS451/Assignments/3 $ exitgclear[1Pexigclearsar[4Plsclearvi makefile ls[Kcd 3Assignments/ls[Kcd ICS451[4Plear[3Plsschool[2Pexit[2Plscleartelnet localhost 25000[K[K[K440
+Trying ::1...
+telnet: connect to address ::1: Connection refused
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Hello Keanu. ICS 451 is fun!
+
+Connection closed by foreign host.
+~/Documents/School/ICS451/Assignments/3 $ exit
+exit
+
+Script done on Sun Sep 29 13:45:51 2019

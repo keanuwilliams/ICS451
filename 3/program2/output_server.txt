@@ -1,0 +1,20 @@
+Script started on Sun Sep 29 13:44:37 2019
+[?1034h~/Documents/School/ICS451/Assignments/3 $ make run
+./server 25440
+Socket created.
+Binding socket...
+Bind successful.
+Looking for connections...
+Awaiting connection...
+Connected.
+Sending message to client 4.
+Message sent.
+Closing connection to client 4.
+Connection to client 4 closed.
+Awaiting connection...
+^Cmake: *** [run] Interrupt: 2
+
+~/Documents/School/ICS451/Assignments/3 $ exit
+exit
+
+Script done on Sun Sep 29 13:45:47 2019

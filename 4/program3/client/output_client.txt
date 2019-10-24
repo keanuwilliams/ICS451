@@ -1,0 +1,19 @@
+Script started on Sat Oct 12 20:07:06 2019
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034h~/Documents/School/ICS451/Assignments/4/program3/client $ clear
+[H[2J~/Documents/School/ICS451/Assignments/4/program3/client $ ./client 25440
+Creating socket...
+Socket created.
+Connecting to server...
+Connected.
+Receiving message from server...
+Message received.
+Closing connection to server...
+Connection closed.
+~/Documents/School/ICS451/Assignments/4/program3/client $ exit
+exit
+
+Script done on Sat Oct 12 20:07:38 2019
