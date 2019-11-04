@@ -1,0 +1,75 @@
+Script started on Sun Nov  3 20:10:01 2019
+]7;file://Keanus-MBP/Users/keanuwilliams/Documents/School/ICS451/Assignments/7/program4/client[1m[7m%[27m[1m[0m                                                                                ]7;file://Keanus-MBP/Users/keanuwilliams/Documents/School/ICS451/Assignments/7/program4/client]2;keanuwilliams@Keanus-MBP]1;..ogram4/client]7;file://Keanus-MBP/Users/keanuwilliams/Documents/School/ICS451/Assignments/7/program4/client[0m[27m[24m[J[01;32m➜  [36mclient[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hmmake[?1l>[?2004l
+]2;make]1;makegcc  -o client client.c
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Keanus-MBP/Users/keanuwilliams/Documents/School/ICS451/Assignments/7/program4/client]2;keanuwilliams@Keanus-MBP]1;..ogram4/client]7;file://Keanus-MBP/Users/keanuwilliams/Documents/School/ICS451/Assignments/7/program4/client[0m[27m[24m[J[01;32m➜  [36mclient[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h../ser   client 25440[?1l>[?2004l
+]2;./client 25440]1;./clientCreating socket...Socket created
+Connecting to server...Connected.
+Creating TCP Header...TCP Header created.
+TCP Header: d0c663600041a7
+Source TCP Port Number: 53446
+Destination TCP Port Number: 25440
+Sequence Number: 16807
+Acknowledgment Number: 0
+Data Offset: 0
+Reserved: 0
+ NS Flag: 0
+CWR Flag: 0
+ECE Flag: 0
+URG Flag: 0
+ACK Flag: 0
+PSH Flag: 0
+RST Flag: 0
+SYN Flag: 1
+FIN Flag: 0
+Window Size: 17584
+Checksum: 65535
+Urgent Pointer: 0
+Sending to server...Sent.
+Awaiting SYN-ACK from server...SYN-ACK received.
+TCP Header created.
+TCP Header: 6360d0c60041a7
+Source TCP Port Number: 25440
+Destination TCP Port Number: 53446
+Sequence Number: 16807
+Acknowledgment Number: 16808
+Data Offset: 0
+Reserved: 0
+ NS Flag: 0
+CWR Flag: 0
+ECE Flag: 0
+URG Flag: 0
+ACK Flag: 1
+PSH Flag: 0
+RST Flag: 0
+SYN Flag: 1
+FIN Flag: 0
+Window Size: 17584
+Checksum: 65535
+Urgent Pointer: 0
+Preparing to send ACK to server...Finished.
+TCP Header created.
+TCP Header: d0c663600041a8
+Source TCP Port Number: 53446
+Destination TCP Port Number: 25440
+Sequence Number: 16808
+Acknowledgment Number: 16808
+Data Offset: 0
+Reserved: 0
+ NS Flag: 0
+CWR Flag: 0
+ECE Flag: 0
+URG Flag: 0
+ACK Flag: 1
+PSH Flag: 0
+RST Flag: 0
+SYN Flag: 0
+FIN Flag: 0
+Window Size: 17584
+Checksum: 65535
+Urgent Pointer: 0
+Sending to server...Sent.
+Connection Established.
+^C
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Keanus-MBP/Users/keanuwilliams/Documents/School/ICS451/Assignments/7/program4/client]2;keanuwilliams@Keanus-MBP]1;..ogram4/client]7;file://Keanus-MBP/Users/keanuwilliams/Documents/School/ICS451/Assignments/7/program4/client[0m[27m[24m[J[01;31m➜  [36mclient[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Sun Nov  3 20:10:14 2019
