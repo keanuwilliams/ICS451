@@ -128,8 +128,9 @@ int main(int argc, char **argv)
                         }
                         if (header[13] == 0x02) // ack flag not set and syn flag set
                         {
-                            printf("SYN received.\nPreparing to send SYN-ACK to client...");
+                            printf("SYN received.\n");
                             print_header_info(header);
+                            printf("Preparing to send SYN-ACK to client...");
                             /* Switch source and dest ports in header */
                             temp[0] = header[0];
                             temp[1] = header[1];
@@ -231,7 +232,6 @@ void print_header_info(unsigned char * header)
     uint16_t source_port, dest_port, window_size, checksum, urgent_pointer;
     uint32_t seq_num, ack_num;
 
-    printf("TCP Header created.\n");
     printf("TCP Header: ");
     for (i = 0; i < sizeof(header); i++)
     {

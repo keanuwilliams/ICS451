@@ -128,6 +128,7 @@ int main(int argc, char **argv)
                 header[17] = 0xff;
                 header[18] = 0x00;
                 header[19] = 0x00;
+                printf("TCP Header created.\n");
                 print_header_info(header);
                 if (DEBUG)
                 {
@@ -220,7 +221,6 @@ void print_header_info(unsigned char * header)
     uint16_t source_port, dest_port, window_size, checksum, urgent_pointer;
     uint32_t seq_num, ack_num;
 
-    printf("TCP Header created.\n");
     printf("TCP Header: ");
     for (i = 0; i < sizeof(header); i++)
     {
