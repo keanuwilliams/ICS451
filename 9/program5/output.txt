@@ -1,0 +1,21 @@
+Script started on Fri Dec  6 00:50:49 2019
+]7;file://Keanus-MacBook-Pro.local/Users/keanuwilliams/Documents/School/ICS451/Assignments/9/program5[1m[7m%[27m[1m[0m                                                                                ]7;file://Keanus-MacBook-Pro.local/Users/keanuwilliams/Documents/School/ICS451/Assignments/9/program5]2;keanuwilliams@Keanus-MacBook-Pro]1;..ts/9/program5]7;file://Keanus-MacBook-Pro.local/Users/keanuwilliams/Documents/School/ICS451/Assignments/9/program5[0m[27m[24m[J[01;32m➜  [36mprogram5[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hssudo   s  mmake clean[?1l>[?2004l
+]2;make clean]1;makerm *.o ping
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Keanus-MacBook-Pro.local/Users/keanuwilliams/Documents/School/ICS451/Assignments/9/program5]2;keanuwilliams@Keanus-MacBook-Pro]1;..ts/9/program5]7;file://Keanus-MacBook-Pro.local/Users/keanuwilliams/Documents/School/ICS451/Assignments/9/program5[0m[27m[24m[J[01;32m➜  [36mprogram5[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hmmake[?1l>[?2004l
+]2;make]1;makegcc -c -std=gnu99 -pedantic-errors -Wall ping.c
+gcc -c -std=gnu99 -pedantic-errors -Wall checksum.c
+gcc -o ping ping.o checksum.o
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Keanus-MacBook-Pro.local/Users/keanuwilliams/Documents/School/ICS451/Assignments/9/program5]2;keanuwilliams@Keanus-MacBook-Pro]1;..ts/9/program5]7;file://Keanus-MacBook-Pro.local/Users/keanuwilliams/Documents/School/ICS451/Assignments/9/program5[0m[27m[24m[J[01;32m➜  [36mprogram5[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hssudo . ./ping bestbuy.com[?1l>[?2004l
+]2;sudo ./ping bestbuy.com]1;./pingPassword:
+PING: bestbuy.com
+28 bytes from 23.7.132.30: icmp_seq=1 ttl=54 time=64.00 ms
+28 bytes from 23.7.132.30: icmp_seq=2 ttl=54 time=69.00 ms
+28 bytes from 23.7.132.30: icmp_seq=3 ttl=54 time=73.00 ms
+28 bytes from 23.7.132.30: icmp_seq=4 ttl=54 time=69.00 ms
+28 bytes from 23.7.132.30: icmp_seq=5 ttl=54 time=70.00 ms
+--- bestbuy.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss
+rtt avg = 69.00 ms
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Keanus-MacBook-Pro.local/Users/keanuwilliams/Documents/School/ICS451/Assignments/9/program5]2;keanuwilliams@Keanus-MacBook-Pro]1;..ts/9/program5]7;file://Keanus-MacBook-Pro.local/Users/keanuwilliams/Documents/School/ICS451/Assignments/9/program5[0m[27m[24m[J[01;32m➜  [36mprogram5[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Fri Dec  6 00:51:25 2019
